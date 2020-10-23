@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+	font-family: "Times New Roman", Times, serif;
+	color: #494444;
+}
+body {
+	padding: auto;
+	margin: auto;
+}
+.headerinner nav ul {
+	display: flex;
+	justify-content: space-around;
+	padding: 10px 200px 10px 200px;
+	margin: 0;
+}
+nav ul li {
+	list-style-type: none;
+	font-style: normal;
+	padding: 2px;
+}
+
+ul li a {
+	text-decoration: none;
+	color: #494444;
+	font-size: 90%;
+	display: block;
+}
+main .container h2 {
+	position: absolute;
+	top: 250px;
+	left: 200px;
+	letter-spacing: 30px;
+	font-size: 230%;
+	line-height: 180%;
+}
+
+
+#header .headerinner .logo {
+	margin: 0;
+	padding: 10px 0 20px 0;
+	text-align: center;
+	color: #464242;
+	font-size: 180%;
+}
+main .container img {
+	margin-left: 500px;
+	margin-right: auto;
+	width: auto;
+	height: auto;
+	position: absolute;
+	right: 180px;
+}
+
+main .container {
+	padding-top: 200px;
+	margin: 0;
+}
+
+#wrap #header {
+	width: 100%;
+	padding: 20px 0;
+	background-color: rgba(226,231,235,0.95);
+	position: fixed;
+	z-index: 999;
+}
+#wrap main {
+	margin-left: 0 30px;
+}
+main .box h3 {
+	font-size: 150%;
+}
+
+#wrap main .box {
+	box-sizing: border-box;
+	padding: 10px 10px 20px;
+	background-color: rgba(220,206,206,0.85);
+	line-height: 250%;
+	position: absolute;	
+	top: 500px;
+	left: 300px;
+}
+.container02 ul {
+	display: flex;
+	flex-wrap: wrap;
+	 justify-content: center;
+}
+#wrap main .container02 {
+	margin: 680px auto 0 auto;
+	padding: 0;
+	text-align: center;
+	width: auto;
+}
+li .text .course_title {
+	width: 120px;
+	height: 50px;
+	padding-top: 20px;
+	margin-bottom: 5px;
+	background-color: #D1C8D1;	
+}
+li .image img {
+	margin-right: 0;
+}
+
+
+li .text .course_fee {
+	width: 120px;
+	height: 40px;
+	padding-top: 10px;
+	margin: 0;
+; 	background-color: #CFDDDF;
+}
+.container02 ul li {
+	overflow: hidden;
+	width: 400px;
+	margin: 30px;
+}
+
+ul li .image {
+	float: left;
+	margin: 0;
+}
+ul li .text {
+	float: right;
+	padding: 10px;
+	margin-left: 0px;
+	width: 120px;	
+}
+
+#wrap footer {
+	background-color: rgba(226,231,235,0.95);
+	margin-bottom: 0;
+	padding: 0;
+	position: relative;
+}
+#wrap footer .footer {
+	padding-top: 30px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+@media screen and (max-width: 979px){
+	main .container {
+		width: auto;
+		position: relative;
+	}
+	main .container img {
+		width: 60%; 
+		margin: 0 10px;
+		position: absolute;
+		right: 50px;
+	}
+	main .container h2 {
+		font-size: 18px;
+		line-height: 1.5;
+		position: absolute;
+		left: 60px;
+		top: 350px;
+		letter-spacing: 15px;
+	}
+	ul li a {
+		font-size: 12px;
+	}
+	.headerinner nav ul {
+		padding: 0 20px;
+	}
+	
+	#wrap main .box p {
+		font-size: 16px;
+		line-height: 1.5;
+		margin: 0;
+	}
+	#wrap main .box{
+		position: absolute;
+		left: 30px;
+		width: 80%;
+		margin: 10px;
+	}
+	
+	ul li .image{
+		width: 20%;
+	}
+}
